@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Big News Review — Week 1</title>
+<meta name="description" content="Dont tell your motha, Week 1: a 103-point mauling, a game decided by 0.16, and a manager whose bench beat his own team.">
+<meta property="og:title" content="Big News Review — Week 1">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:description" content="Dont tell your motha, Week 1: a 103-point mauling, a game decided by 0.16, and a manager whose bench beat his own team.">
+<meta property="og:type" content="article">
+<meta name="theme-color" content="#12120F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700;6..96,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+:root{
+  --paper:#FFFFFF;
+  --paper-2:#F3F3F1;
+  --ink:#12120F;
+  --ink-2:#5C5C57;
+  --ink-3:#8A8A83;
+  --rule:#DEDEDA;
+  --rule-strong:#12120F;
+  --accent:#8E1F2F;
+  --figure:#14507A;
+  --pos:#1F6A45;
+  --neg:#A32232;
+}
+
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) {
+  --paper:#0E0E10; --paper-2:#17171A; --ink:#EDEDE8; --ink-2:#9C9C96; --ink-3:#6E6E68;
+  --rule:#2A2A2E; --rule-strong:#EDEDE8; --accent:#E2566B; --figure:#6FB2DE;
+  --pos:#4BAE80; --neg:#E2566B;
+} }
+
+:root[data-theme="dark"] {
+  --paper:#0E0E10; --paper-2:#17171A; --ink:#EDEDE8; --ink-2:#9C9C96; --ink-3:#6E6E68;
+  --rule:#2A2A2E; --rule-strong:#EDEDE8; --accent:#E2566B; --figure:#6FB2DE;
+  --pos:#4BAE80; --neg:#E2566B;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:'Newsreader',Georgia,serif;
+  font-size:clamp(17px,1.6vw + 14px,19px);
+  line-height:1.6;
+  max-width:100vw;
+  overflow-x:hidden;
+}
+
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:400;src:local('Bodoni Moda')}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:700;src:local('Bodoni Moda')}
+@font-face{font-family:'Bodoni Moda';font-style:normal;font-weight:900;src:local('Bodoni Moda')}
+@font-face{font-family:'Newsreader';font-style:italic;src:local('Newsreader')}
+@font-face{font-family:'Archivo';font-weight:400;src:local('Archivo')}
+@font-face{font-family:'Archivo';font-weight:500;src:local('Archivo')}
+@font-face{font-family:'Archivo';font-weight:600;src:local('Archivo')}
+
+.wrap{width:min(100%,46rem);margin-inline:auto;padding-inline:20px}
+
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{transform:translateY(10px);opacity:0}to{transform:translateY(0);opacity:1}}
+
+.topbar{
+  position:sticky;top:0;z-index:10;
+  background:var(--paper);
+  border-bottom:1px solid var(--rule);
+  padding-block:10px;
+}
+
+.topbar .pub{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-2)}
+.topbar .week{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+
+.hero{border-bottom:2px solid var(--rule-strong);padding-bottom:1.5rem;margin-bottom:2rem}
+.hero .eyebrow{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:.5rem}
+.hero h1{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:900;letter-spacing:-.02em;line-height:.95;text-wrap:balance;font-size:clamp(40px,10vw,76px);margin-bottom:1rem}
+.hero .standfirst{font-family:'Newsreader',Georgia,serif;font-size:clamp(19px,2.4vw,23px);color:var(--ink-2);margin-bottom:1rem;text-wrap:balance}
+.hero .dateline{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.1em}
+
+.jump{margin:2rem 0;padding-bottom:1rem;border-bottom:1px solid var(--rule)}
+.jump a{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);text-decoration:none;margin-inline-end:.5rem}
+.jump a::after{content:'/ ';color:var(--ink-3);margin-inline-start:.5rem}
+.jump a:last-child::after{content:''}
+.jump a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.sec{margin:3rem 0}
+.sec .eyebrow{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:.75rem}
+.sec h2{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.1;text-wrap:balance;margin-bottom:.75rem}
+.sec .line{height:1px;background:var(--rule);margin-bottom:1.5rem;width:100%}
+
+.award ol{list-style:none}
+.award li{display:grid;grid-template-columns:1fr;gap:1rem;padding:1.5rem 0;border-bottom:1px solid var(--rule)}
+.award li .meta{display:flex;align-items:center;justify-content:space-between;align-items:flex-start}
+.award li .slot{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+.award li .player{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:700;font-size:clamp(24px,5vw,32px);line-height:1.1;text-wrap:balance}
+.award li .team{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:14px;color:var(--ink-2)}
+.award li .points{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:900;font-size:clamp(30px,7vw,44px);line-height:.95;color:var(--figure);text-align:right}
+.award li .headline{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin-top:.75rem}
+.award li .caption{font-family:'Newsreader',Georgia,serif;margin-top:.5rem;margin-bottom:.5rem}
+.award li .manager{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--ink-3)}
+
+.feature{margin:2.5rem 0;border-radius:0}
+.feature .eyebrow{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:.5rem}
+.feature h3{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:700;font-size:clamp(24px,5vw,34px);line-height:1.15;text-wrap:balance;margin-bottom:.75rem}
+.feature p{font-family:'Newsreader',Georgia,serif;margin-bottom:1rem}
+.feature .figures{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1rem}
+.feature .figures .pair{font-family:'Archivo','Helvetica Neue',Arial,sans-serif}
+.feature .figures .label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-3)}
+.feature .figures .value{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:600;font-size:18px}
+.feature .bench-list{margin-top:1rem;font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:13px}
+.feature .bench-list li{margin-bottom:.5rem;color:var(--ink-2)}
+.feature .big-num{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:900;font-size:clamp(72px,26vw,150px);line-height:.8;color:var(--accent);text-align:center;margin:1rem 0}
+
+.pullquote{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-style:italic;font-size:clamp(24px,5.5vw,34px);color:var(--accent);max-width:28em;margin:2rem 0;line-height:1.3}
+.pullquote:before,.pullquote:after{content:'';display:block;height:2px;background:var(--rule-strong);margin-bottom:1rem}
+
+.scroll{overflow-x:auto;margin-bottom:2rem}
+table{border-collapse:collapse;width:100%;font-family:'Newsreader',Georgia,serif;font-variant-numeric:tabular-nums}
+table th{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-3);border-bottom:2px solid var(--rule-strong);text-align:center;padding:1rem .5rem}
+table td{border-bottom:1px solid var(--rule);padding:1rem .5rem}
+table td.left{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-weight:500}
+table tr:last-child td{border-bottom:none}
+
+.eff{margin:2rem 0;role:"img";aria-label="Efficiency chart from 57.8% to 100%"}
+.eff .row{margin-bottom:1rem}
+.eff .team{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:500;margin-bottom:.5rem}
+.eff .track{height:1px;background:var(--rule);position:relative;margin-bottom:.5rem}
+.eff .bar{height:10px;background:var(--pos);position:absolute;top:0;left:0}
+.eff .nums{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;display:flex;justify-content:space-between}
+.eff .eff{font-weight:600}
+
+.casualty{margin:2.5rem 0}
+.casualty h3{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:700;font-size:clamp(24px,5vw,34px);margin-bottom:1rem}
+.casualty .intro{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:1rem}
+.casualty .section-head{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:2rem 0 1rem}
+.casualty .row{display:flex;align-items:flex-start;gap:1rem;padding:.75rem 0;border-bottom:1px solid var(--rule)}
+.casualty .row:last-child{border-bottom:none}
+.casualty .status{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;padding:.25rem .5rem;margin-bottom:.5rem}
+.casualty .pos{color:var(--neg)}
+.casualty .q{color:var(--ink-2)}
+.casualty .player{font-family:'Bodoni Moda',Didot,'Times New Roman',serif;font-weight:600;margin-bottom:.25rem}
+.casualty .meta{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--ink-3);margin-bottom:.5rem}
+.casualty .meta span{margin-inline-end:1rem}
+.casualty .quip{font-family:'Newsreader',Georgia,serif;font-style:italic}
+
+.notes{margin:2rem 0}
+.notes .item{margin-bottom:1.5rem}
+.notes .headline{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin-bottom:.5rem}
+.notes .text{font-family:'Newsreader',Georgia,serif}
+
+.colophon{margin-top:4rem;padding-top:2rem;border-top:1px solid var(--rule)}
+.colophon .outro{font-family:'Newsreader',Georgia,serif;font-style:italic;margin-bottom:1rem}
+.colophon .meta{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:12px;color:var(--ink-3)}
+
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+@media (prefers-reduced-motion:no-preference){
+  .topbar,.hero,.award li,.feature,.table{animation:fadeIn .3s ease-out,slideUp .4s ease-out}
+}
+
+@media (max-width:400px){
+  .wrap{padding-inline:16px}
+}
+
+.results{list-style:none;margin:0 0 2rem;padding:0}
+.fixture{display:grid;gap:.3rem;padding-block:.95rem;border-bottom:1px solid var(--rule)}
+.fixture:last-child{border-bottom:none}
+.side{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.side .t{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:500;color:var(--ink-2)}
+.side .p{font-family:'Newsreader',Georgia,serif;font-size:17px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.side.win .t{font-weight:700;color:var(--ink)}
+.side.win .p{color:var(--ink)}
+table td.left .tm{display:block;font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-weight:500}
+table td.left .ow{display:block;font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:400;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-3);margin-top:.15rem}
+table td.rank{font-family:'Archivo','Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--ink-3)}
+@media (max-width:560px){
+  table th{font-size:10px;letter-spacing:.06em;padding:.7rem .3rem}
+  table td{padding:.7rem .3rem;font-size:15px}
+  .side .t{font-size:14px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="pub">Big News Review</div>
+    <div class="week">WEEK 1</div>
+  </div>
+</div>
+
+<article>
+<section class="wrap hero">
+  <div class="eyebrow">Week 1 · 2026 Season · 10-Team PPR</div>
+  <h1>THE BENCH OUTSCORED THE STARTERS</h1>
+  <p class="standfirst">Gentlemen. Week 1 is in the books and the league has already produced a 103-point mauling, a game decided by SIXTEEN HUNDREDTHS of a point, and one manager whose bench outscored his starting lineup. Five of you are 1-0 and insufferable. Five of you are 0-1 and already checking the waiver wire at 2am. Below: your winners, your losers, and the medical bay.</p>
+  <div class="dateline">Dont tell your motha · The only paper brave enough to print the bench scores</div>
+</section>
+
+<nav class="wrap jump">
+  <a href="#awards">Positional Awards</a>
+  <a href="#feature">Features</a>
+  <a href="#scoreboard">Scoreboard</a>
+  <a href="#standings">Standings</a>
+  <a href="#efficiency">Efficiency</a>
+  <a href="#casualties">Injuries</a>
+</nav>
+
+<section class="wrap award sec" id="awards">
+  <div class="eyebrow">Positional Awards</div>
+  <h2>THE BEST OF WEEK 1</h2>
+  <div class="line"></div>
+  <ol>
+    <li>
+      <div class="meta">
+        <div class="slot">QB1</div>
+        <div class="points">37.26</div>
+      </div>
+      <div class="player">Caleb Williams</div>
+      <div class="team">CHI</div>
+      <div class="headline">GONE WITH THE WIND(Y CITY)</div>
+      <p class="caption">Caleb blew in off Lake Michigan and left nine managers holding their hats. 37.26 — the only Bear anyone was happy to poke. Tomsam23 drafted a quarterback and accidentally drafted the weather.</p>
+      <div class="manager">Started by The Mighty Blues</div>
+    </li>
+    <li>
+      <div class="meta">
+        <div class="slot">RB1</div>
+        <div class="points">38.10</div>
+      </div>
+      <div class="player">Kenneth Walker</div>
+      <div class="team">KC</div>
+      <div class="headline">WALKER, KANSAS CITY RANGER</div>
+      <p class="caption">38.10 — the highest score by ANY player at ANY position in Week 1, and he never needed the roundhouse. The cruel bit: Gorvel got the best player in the league this week and still lost. Read on, it gets worse for him.</p>
+      <div class="manager">Started by 2001 New York Jets</div>
+    </li>
+    <li>
+      <div class="meta">
+        <div class="slot">WR1</div>
+        <div class="points">33.70</div>
+      </div>
+      <div class="player">Christian Watson</div>
+      <div class="team">GB</div>
+      <div class="headline">ELEMENTARY, MY DEAR WATSON</div>
+      <p class="caption">33.70 of cheddar-shredding out of Green Bay. No deduction required, no Sherlock needed — Jack just plugged him in and let the Packer do the detective work.</p>
+      <div class="manager">Started by KansasKeefKings</div>
+    </li>
+    <li>
+      <div class="meta">
+        <div class="slot">TE1</div>
+        <div class="points">24.50</div>
+      </div>
+      <div class="player">Trey McBride</div>
+      <div class="team">ARI</div>
+      <div class="headline">HERE COMES THE McBRIDE</div>
+      <p class="caption">24.50 in the desert — and it is the single most important tight end performance in league history, because Scody94 won his game by 0.16. Always the McBride, never the bridesmaid. Take half a catch off this man and the whole week flips.</p>
+      <div class="manager">Started by Lombardeez Nutz</div>
+    </li>
+    <li>
+      <div class="meta">
+        <div class="slot">K</div>
+        <div class="points">12.00</div>
+      </div>
+      <div class="player">Cam Little</div>
+      <div class="team">JAX</div>
+      <div class="headline">A LITTLE GOES A LONG WAY</div>
+      <p class="caption">12 points from a Jacksonville boot. In a league where Brandon Aubrey posted MINUS TWO, twelve from your kicker is basically a second tight end. Little by name, enormous by margin.</p>
+      <div class="manager">Started by The Mighty Blues</div>
+    </li>
+    <li>
+      <div class="meta">
+        <div class="slot">DEF</div>
+        <div class="points">23.00</div>
+      </div>
+      <div class="player">Pittsburgh Steelers</div>
+      <div class="team">PIT</div>
+      <div class="headline">GRAND THEFT, PITTSBURGH</div>
+      <p class="caption">23 points of solid Steel. This wasn't defending, it was repossession. Picked up as a free agent in Week 1 for the Vikings — the single best bit of business anyone did all week.</p>
+      <div class="manager">Started by KansasKeefKings</div>
+    </li>
+  </ol>
+</section>
+
+<section class="wrap" id="feature">
+  <section class="feature" style="background:var(--paper-2);margin-bottom:2.5rem">
+    <div class="eyebrow">TEAM OF THE WEEK</div>
+    <h3>183.66 — AND NOT A POINT LEFT BEHIND</h3>
+    <p>A perfect lineup. Zero points on the bench. Here is the truly obscene part: he started Kyle Pitts, who scored ZERO, and Brandon Aubrey, who scored MINUS TWO, and still hung 183.66. Two starters combined for -2.00 and he won by 103. That is not roster management, that's a hostage situation.</p>
+    <div class="figures">
+      <div class="pair"><div class="label">KansasKeefKings</div><div class="value">183.66 pts</div></div>
+      <div class="pair"><div class="label">Efficiency</div><div class="value">100%</div></div>
+    </div>
+  </section>
+
+  <section class="feature" style="margin-bottom:2.5rem">
+    <div class="eyebrow">THE WOODEN SPOON</div>
+    <h3>80.32 IN A PPR LEAGUE. IN PPR.</h3>
+    <p>Eighty. Points. The Philadelphia defence (4.00) outscored his tight end, because his tight end was Colston Loveland, who posted a clean zero. No Loveland lost. Drake Maye gave him 9.82 — a QUARTERBACK, single digits, in a format that pays a point a catch.</p>
+    <div class="figures">
+      <div class="pair"><div class="label">danokeeffe</div><div class="value">80.32 pts</div></div>
+    </div>
+  </section>
+
+  <section class="feature" style="background:var(--paper-2);margin-bottom:2.5rem">
+    <div class="eyebrow">MANAGER OF THE WEEK (DEROGATORY)</div>
+    <h3>THE BENCH OUTSCORED THE STARTERS</h3>
+    <p>96.66 sat down. 80.32 stood up. Isaiah Likely — LIKELY — put up 27.80 in a tracksuit, which is more than any tight end who actually played for a team in this league. Kyle Monangai added 24.40 from the sofa, Parker Washington 19.30. Best XI would have been 138.86 and a real game. Instead: 57.8% efficiency, the worst in the league by sixteen points, and a 103-point defeat.</p>
+    <div class="big-num">57.8%</div>
+    <div class="figures">
+      <div class="pair"><div class="label">Starters</div><div class="value">80.32</div></div>
+      <div class="pair"><div class="label">Bench</div><div class="value">96.66</div></div>
+      <div class="pair"><div class="label">Best XI</div><div class="value">138.86</div></div>
+      <div class="pair"><div class="label">Left on bench</div><div class="value">58.54</div></div>
+    </div>
+    <ul class="bench-list">
+      <li>Isaiah Likely (NYG, TE) — 27.80</li>
+      <li>Kyle Monangai (CHI, RB) — 24.40</li>
+      <li>Parker Washington (JAX, WR) — 19.30</li>
+      <li>Justin Herbert (LAC, QB) — 13.26</li>
+    </ul>
+  </section>
+
+  <section class="feature" style="background:var(--paper-2);margin-bottom:2.5rem">
+    <div class="eyebrow">BEAT OF THE WEEK</div>
+    <h3>BEATEN BY 0.16</h3>
+    <p class="pullquote">Sixteen hundredths of a point. One yard. One yard anywhere on the field and Gorvel wins.</p>
+    <div class="big-num">0.16</div>
+    <p>Lombardeez Nutz 139.62 · 2001 New York Jets 139.46. One yard. One yard anywhere on the field and Gorvel wins. He had the top scorer in the entire league (Kenneth Walker, 38.10), he had Ladd McConkey go 19.20 through a chest knock — and he had Trevor Lawrence sitting on his bench in a suit for 26.10. He also picked up the Jaguars defence, started them for 18, and then dropped them on waivers the same week. Sleep well.</p>
+  </section>
+
+  <section class="feature">
+    <div class="eyebrow">THE MASSACRE</div>
+    <h3>103.34 POINTS</h3>
+    <p>KansasKeefKings 183.66 · danokeeffe 80.32. 103.34 points. You could delete Jack's entire wide receiver corps and he still wins comfortably.</p>
+  </section>
+</section>
+
+<section class="wrap" id="scoreboard">
+  <section class="sec">
+    <div class="eyebrow">Scoreboard</div>
+    <h2>THE RESULTS</h2>
+    <div class="line"></div>
+    <ol class="results">
+      <li class="fixture">
+        <div class="side win"><span class="t">KansasKeefKings</span><span class="p">183.66</span></div>
+        <div class="side"><span class="t">danokeeffe</span><span class="p">80.32</span></div>
+      </li>
+      <li class="fixture">
+        <div class="side win"><span class="t">TheHegs</span><span class="p">170.96</span></div>
+        <div class="side"><span class="t">The Dawg Pound Dropouts</span><span class="p">94.50</span></div>
+      </li>
+      <li class="fixture">
+        <div class="side win"><span class="t">The Mighty Blues</span><span class="p">151.06</span></div>
+        <div class="side"><span class="t">RipSirNicolasChubb</span><span class="p">103.30</span></div>
+      </li>
+      <li class="fixture">
+        <div class="side win"><span class="t">Lombardeez Nutz</span><span class="p">139.62</span></div>
+        <div class="side"><span class="t">2001 New York Jets</span><span class="p">139.46</span></div>
+      </li>
+      <li class="fixture">
+        <div class="side win"><span class="t">D&#x27;Andre Spliff</span><span class="p">115.76</span></div>
+        <div class="side"><span class="t">X Gon&#x27; Gibbs It To Ya</span><span class="p">109.94</span></div>
+      </li>
+    </ol>
+  </section>
+</section>
+
+<section class="wrap" id="standings">
+  <section class="sec">
+    <div class="eyebrow">Standings</div>
+    <h2>THE TABLE</h2>
+    <div class="line"></div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">#</th><th scope="col">Team</th><th scope="col">Rec</th><th scope="col">Pts For</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="rank">1</td><td class="left"><span class="tm">KansasKeefKings</span><span class="ow">jackCronin</span></td><td>1-0</td><td>183.66</td></tr>
+          <tr><td class="rank">2</td><td class="left"><span class="tm">TheHegs</span><span class="ow">TheHegs</span></td><td>1-0</td><td>170.96</td></tr>
+          <tr><td class="rank">3</td><td class="left"><span class="tm">The Mighty Blues</span><span class="ow">tomsam23</span></td><td>1-0</td><td>151.06</td></tr>
+          <tr><td class="rank">4</td><td class="left"><span class="tm">Lombardeez Nutz</span><span class="ow">Scody94</span></td><td>1-0</td><td>139.62</td></tr>
+          <tr><td class="rank">5</td><td class="left"><span class="tm">D&#x27;Andre Spliff</span><span class="ow">DAndreSpliff</span></td><td>1-0</td><td>115.76</td></tr>
+          <tr><td class="rank">6</td><td class="left"><span class="tm">2001 New York Jets</span><span class="ow">Gorvel</span></td><td>0-1</td><td>139.46</td></tr>
+          <tr><td class="rank">7</td><td class="left"><span class="tm">X Gon&#x27; Gibbs It To Ya</span><span class="ow">JakeM1998</span></td><td>0-1</td><td>109.94</td></tr>
+          <tr><td class="rank">8</td><td class="left"><span class="tm">RipSirNicolasChubb</span><span class="ow">IanMcAuliffe</span></td><td>0-1</td><td>103.30</td></tr>
+          <tr><td class="rank">9</td><td class="left"><span class="tm">The Dawg Pound Dropouts</span><span class="ow">conork29</span></td><td>0-1</td><td>94.50</td></tr>
+          <tr><td class="rank">10</td><td class="left"><span class="tm">danokeeffe</span><span class="ow">danokeeffe</span></td><td>0-1</td><td>80.32</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>
+
+<section class="wrap" id="efficiency">
+  <section class="sec">
+    <div class="eyebrow">Efficiency</div>
+    <h2>POINTS HARVESTED VS. POTENTIAL</h2>
+    <div class="line"></div>
+    <div class="eff">
+      <div class="row"><div class="team">KansasKeefKings</div><div class="track"><div class="bar" style="width:100%;background:var(--pos)"></div></div><div class="nums"><span>183.66 / 183.66</span><span class="eff">100.0%</span></div></div>
+      <div class="row"><div class="team">The Mighty Blues</div><div class="track"><div class="bar" style="width:100%;background:var(--pos)"></div></div><div class="nums"><span>151.06 / 151.06</span><span class="eff">100.0%</span></div></div>
+      <div class="row"><div class="team">The Dawg Pound Dropouts</div><div class="track"><div class="bar" style="width:95.4%;background:var(--pos)"></div></div><div class="nums"><span>94.50 / 99.10</span><span class="eff">95.4%</span></div></div>
+      <div class="row"><div class="team">Lombardeez Nutz</div><div class="track"><div class="bar" style="width:95.2%;background:var(--pos)"></div></div><div class="nums"><span>139.62 / 146.62</span><span class="eff">95.2%</span></div></div>
+      <div class="row"><div class="team">RipSirNicolasChubb</div><div class="track"><div class="bar" style="width:93.1%;background:var(--pos)"></div></div><div class="nums"><span>103.30 / 111.00</span><span class="eff">93.1%</span></div></div>
+      <div class="row"><div class="team">D'Andre Spliff</div><div class="track"><div class="bar" style="width:90.3%;background:var(--pos)"></div></div><div class="nums"><span>115.76 / 128.26</span><span class="eff">90.3%</span></div></div>
+      <div class="row"><div class="team">TheHegs</div><div class="track"><div class="bar" style="width:87.1%;background:var(--figure)"></div></div><div class="nums"><span>170.96 / 196.26</span><span class="eff">87.1%</span></div></div>
+      <div class="row"><div class="team">2001 New York Jets</div><div class="track"><div class="bar" style="width:84.1%;background:var(--figure)"></div></div><div class="nums"><span>139.46 / 165.90</span><span class="eff">84.1%</span></div></div>
+      <div class="row"><div class="team">X Gon' Gibbs It To Ya</div><div class="track"><div class="bar" style="width:73.8%;background:var(--neg)"></div></div><div class="nums"><span>109.94 / 148.94</span><span class="eff">73.8%</span></div></div>
+      <div class="row"><div class="team">danokeeffe</div><div class="track"><div class="bar" style="width:57.8%;background:var(--neg)"></div></div><div class="nums"><span>80.32 / 138.86</span><span class="eff">57.8%</span></div></div>
+    </div>
+  </section>
+</section>
+
+<section class="wrap" id="casualties">
+  <section class="casualty">
+    <div class="eyebrow">The Medical Bay</div>
+    <h3>BRING A GRAPE</h3>
+    <div class="intro">SERIOUS INJURIES</div>
+    <div class="row">
+      <div><div class="status pos">IR</div><div class="player">A.J. Brown</div><div class="meta"><span>WR · NE</span><span>D'Andre Spliff</span><span>Ankle</span></div><p class="quip">The biggest name on the shelf. An ankle in New England in September — that's a long, cold wait.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status pos">IR</div><div class="player">Jordan Mason</div><div class="meta"><span>RB · MIN</span><span>X Gon' Gibbs It To Ya</span><span>Thumb</span></div><p class="quip">Injured Reserve. For a THUMB. Jake is going to be talking about this one in March.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status pos">PUP</div><div class="player">Zach Charbonnet</div><div class="meta"><span>RB · SEA</span><span>The Mighty Blues</span><span>Knee — ACL</span></div><p class="quip">On the PUP list with an ACL. A roster spot doubling as a shrine.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status pos">OUT</div><div class="player">De'Zhaun Stribling</div><div class="meta"><span>WR · SF</span><span>2001 New York Jets</span><span>Ankle</span></div><p class="quip">Ruled out. Gorvel lost by 0.16 — every empty jersey counts double this week.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status pos">NA</div><div class="player">Josh Jacobs</div><div class="meta"><span>RB · GB</span><span>Lombardeez Nutz</span><span>Personal</span></div><p class="quip">Away on personal matters. No jokes here — but Scody94 is still short a starting back.</p></div>
+    </div>
+
+    <div class="section-head">Questionable</div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Brock Bowers</div><div class="meta"><span>TE · LV</span><span>TheHegs</span><span>Knee — meniscus</span></div><p class="quip">The scariest 'Questionable' on the board. A meniscus is never just a meniscus.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Joe Burrow</div><div class="meta"><span>QB · CIN</span><span>2001 New York Jets</span><span>Back</span></div><p class="quip">Started him anyway, got 14.16, lost by 0.16. Everything about Gorvel's week hurts.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Zay Flowers</div><div class="meta"><span>WR · BAL</span><span>KansasKeefKings</span><span>Hamstring</span></div><p class="quip">Questionable hamstring, 27.00 points. Flowers blooming through the pain.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Ladd McConkey</div><div class="meta"><span>WR · LAC</span><span>2001 New York Jets</span><span>Chest</span></div><p class="quip">Played through a chest knock for 19.20 and it still wasn't enough.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Jalen Coker</div><div class="meta"><span>WR · CAR</span><span>TheHegs</span><span>Ankle</span></div><p class="quip">34.80 off the bench on a dodgy ankle. Sat down, still the best-value man in the league.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Michael Pittman</div><div class="meta"><span>WR · PIT</span><span>Lombardeez Nutz</span><span>Foot</span></div><p class="quip">A Pittman in Pittsburgh with a bad foot. The name was too perfect to last.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Brian Thomas</div><div class="meta"><span>WR · JAX</span><span>RipSirNicolasChubb</span><span>Shoulder</span></div><p class="quip">Ian needs this shoulder to hold up more than Ian needs most things.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">RJ Harvey</div><div class="meta"><span>RB · DEN</span><span>danokeeffe</span><span>Hamstring</span></div><p class="quip">One of two hamstrung Dano backs. When it rains, it pulls.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Kyle Monangai</div><div class="meta"><span>RB · CHI</span><span>danokeeffe</span><span>Hamstring</span></div><p class="quip">Scored 24.40 from the bench on a bad hamstring. Dano, he was FINE.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">D'Andre Swift</div><div class="meta"><span>RB · CHI</span><span>X Gon' Gibbs It To Ya</span><span>Knee</span></div><p class="quip">Swift by name, limping by nature.</p></div>
+    </div>
+    <div class="row">
+      <div><div class="status q">Q</div><div class="player">Juwan Johnson</div><div class="meta"><span>TE · NO</span><span>X Gon' Gibbs It To Ya</span><span>Illness</span></div><p class="quip">Man's got a sniffle. Jake's season has a sniffle.</p></div>
+    </div>
+  </section>
+</section>
+
+<section class="wrap notes">
+  <div class="item">
+    <div class="headline">COKER COLA, SERVED FLAT</div>
+    <p class="text">TheHegs plucked Jalen Coker off free agency, sat him, and watched him drop 34.80 — the highest bench score in the league. He still won by 76.46 points. Some men are born lucky.</p>
+  </div>
+  <div class="item">
+    <div class="headline">THE JAGUAR HE THREW BACK</div>
+    <p class="text">2001 New York Jets added the Jaguars D as a free agent, started them for 18.00, then shipped them out on waivers for Tampa Bay. Lost by 0.16.</p>
+  </div>
+  <div class="item">
+    <div class="headline">KICKER ROULETTE</div>
+    <p class="text">Brandon Aubrey: -2.00. Harrison Mevis: 1.00. Two managers actively paid points for the privilege of having a kicker. D'Andre Spliff has now cycled three kickers in two weeks — Boswell out, Shrader in, Shrader out, Pineiro in.</p>
+  </div>
+</section>
+
+<footer class="wrap colophon">
+  <p class="outro">Week 2 is live. Dano — start the bench. Gorvel — check the decimal point. Everyone else: don't tell your motha.</p>
+  <p class="meta">Compiled from the Sleeper API · League 1389724530838114304 · Week 1, 2026 season</p>
+</footer>
+
+</article>
+</body>
+</html>
