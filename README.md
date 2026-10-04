@@ -16,6 +16,7 @@ archive index, with the latest week pinned at the top.
 /                 archive index — every week, newest first
 /week-1/          Week 1
 /week-2/          Week 2
+/week-3/          Week 3
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
@@ -37,5 +38,19 @@ League `1389724530838114304`, 10-team PPR, starters
 
 "Best XI" and lineup efficiency are computed, not reported by Sleeper: the
 best legal lineup is selected from every player on the roster that week
-(starters and bench), respecting slot eligibility, and efficiency is
-`actual / best XI`.
+(starters and bench), and efficiency is `actual / best XI`. Two rules apply
+to the best XI and to every "should have started X" line in the copy:
+
+- **Slot eligibility.** The flex is `WRRB_FLEX` — receivers and running backs
+  only. A tight end can only ever fill the TE slot, so a WR-for-TE swap is
+  never legal.
+- **Startability.** A player only counts if he was on the roster before his
+  own kickoff and before the kickoff of the player who actually held that
+  slot (the slot locks when its incumbent's game starts). Kickoff times come
+  from ESPN's scoreboard.
+
+Each week covers that week's games only. Once the next week's Thursday game
+has been played, `/league/{id}/rosters` and `/matchups/{week+1}` already carry
+its points, so the table is computed from `/matchups/1..N`, never from the
+running totals, and injuries or transactions from that Thursday game are left
+out.
