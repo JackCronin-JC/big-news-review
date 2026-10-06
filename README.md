@@ -17,11 +17,18 @@ archive index, with the latest week pinned at the top.
 /week-1/          Week 1
 /week-2/          Week 2
 /week-3/          Week 3
+/week-4/          Week 4, plus redzone.mp4: a two-minute whip-around video
+                  (stock macOS voice, captions in redzone.vtt)
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
 figures, add a card to the root `index.html`, and extend the week switcher in
 the hero and footer of each page.
+
+A player who was dropped before his game is on no roster, so his points are not
+in the matchup data. Those come from `/stats/nfl/regular/{season}/{week}`, scored
+with the league's own `scoring_settings` (checked to reproduce every rostered
+player's matchup points exactly before being trusted).
 
 ## Where the numbers come from
 
