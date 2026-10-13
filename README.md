@@ -13,13 +13,16 @@ Each week is its own page under a `week-N/` folder. The root page is the
 archive index, with the latest week pinned at the top.
 
 ```
-/                 archive index — every week, newest first
+/                 archive index — the season dashboard (heat table, luck, bench,
+                  positions, table position, boom or bust, waivers), then every
+                  week, newest first
 /week-1/          Week 1
 /week-2/          Week 2
 /week-3/          Week 3
 /week-4/          Week 4, plus redzone.mp4: a two-minute whip-around video
                   (open-source Kokoro AI voice, captions in redzone.vtt)
-/week-5/          Week 5
+/week-5/          Week 5, plus redzone.mp4: the whip-around presented by Bot Hanson,
+                  an AI anchor (Kokoro voice, captions in redzone.vtt)
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
