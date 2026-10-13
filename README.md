@@ -19,6 +19,7 @@ archive index, with the latest week pinned at the top.
 /week-3/          Week 3
 /week-4/          Week 4, plus redzone.mp4: a two-minute whip-around video
                   (open-source Kokoro AI voice, captions in redzone.vtt)
+/week-5/          Week 5
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the

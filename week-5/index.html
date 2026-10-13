@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Big News Review — Week 5</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Dont tell your motha, Week 5: Gorvel posts the highest score of the season, 196.40, against Jack&#x27;s perfect 160.60. Jack wins the Chase, LaPorta and Swift trade by 18.40 and Jake wins his first game. Rumours circulate at Half Chubb headquarters.">
+<meta property="og:title" content="Big News Review — Week 5">
+<meta property="og:description" content="Dont tell your motha, Week 5: Gorvel posts the highest score of the season, 196.40, against Jack&#x27;s perfect 160.60. Jack wins the Chase, LaPorta and Swift trade by 18.40 and Jake wins his first game. Rumours circulate at Half Chubb headquarters.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0E3B24">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;0,600;0,700;1,400&family=Staatliches&display=swap">
+<style>
+:root{
+  --bg:#FBFBF7;
+  --surface:#FFFFFF;
+  --turf:#0E3B24;
+  --turf-2:#175C37;
+  --flag:#FFC629;
+  --on-flag:#14211B;
+  --pigskin:#8C4A24;
+  --ink:#14211B;
+  --ink-2:#5A6560;
+  --line:#D8DDD8;
+  --good:#175C37;
+  --mid:#B9821A;
+  --bad:#B3261E;
+  --target:#B9821A;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) {
+  --bg:#0C1410; --surface:#131E18; --turf:#48B87A; --turf-2:#2E8C55; --flag:#FFD14D;
+  --pigskin:#C87B44; --ink:#EAF1EC; --ink-2:#9BAAA1; --line:#25352C;
+  --good:#48B87A; --mid:#E0A83A; --bad:#FF6B5E; --target:#FFD14D;
+} }
+:root[data-theme="dark"]{
+  --bg:#0C1410; --surface:#131E18; --turf:#48B87A; --turf-2:#2E8C55; --flag:#FFD14D;
+  --pigskin:#C87B44; --ink:#EAF1EC; --ink-2:#9BAAA1; --line:#25352C;
+  --good:#48B87A; --mid:#E0A83A; --bad:#FF6B5E; --target:#FFD14D;
+}
+@media (prefers-reduced-motion:no-preference){
+  html{scroll-behavior:smooth}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.55}
+h1,h2,h3,h4,h5,h6,.Staatliches{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;letter-spacing:.02em;text-transform:uppercase}
+h1{font-size:clamp(26px,7vw,40px);margin:.5em 0}
+h3{font-size:clamp(20px,5vw,28px);margin:.5em 0}
+.wrap{width:min(100%,1180px);margin-inline:auto;padding-inline:20px}
+.paragraph{max-width:62ch}
+.hero{position:relative;background:var(--turf);color:var(--surface);padding-block:1.75rem;background:var(--turf);background-image:repeating-linear-gradient(90deg,var(--turf) 0 60px,var(--turf-2) 60px 120px)}
+.hero-meta{font-size:14px;margin-bottom:.5em;opacity:.9}
+.hero h1{margin:0 0 .75rem}
+.hero-intro{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:15px;line-height:1.6;color:var(--surface)}
+.week-nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:1rem}
+.week-chip{display:inline-flex;align-items:center;min-height:36px;padding:0 13px;border:2px solid currentColor;border-radius:3px;color:inherit;text-decoration:none;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:14px;letter-spacing:.02em}
+@media (prefers-reduced-motion:no-preference){ .week-chip{transition:background-color .15s ease,color .15s ease} }
+.week-chip:hover,.week-chip[aria-current="page"]{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.week-chip:focus-visible{outline:3px solid var(--flag);outline-offset:2px}
+.endzone-hatch{display:flex;gap:3px;padding:0 20px;height:10px;overflow:hidden}
+.endzone-tick{flex:1;height:100%;background:var(--flag);transform:skewX(-20deg);transform-origin:left}
+.nav{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:2px solid var(--turf);overflow-x:hidden}
+.nav-list{list-style:none;margin:0;padding:0;display:flex;white-space:nowrap}
+.nav-link{display:inline-flex;align-items:center;min-height:44px;min-width:44px;padding-inline:14px;text-decoration:none;color:var(--turf);font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:14px}
+@media (prefers-reduced-motion:no-preference){ .nav-link{transition:background-color .15s ease} }
+.nav-link:hover{background-color:var(--flag);color:var(--on-flag)}
+@media (hover:hover){ .nav-link{text-decoration:underline;text-decoration-color:var(--flag)} }
+.nav-link:focus-visible{outline:3px solid var(--flag);outline-offset:2px}
+.statstrip{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding-block:1.75rem}
+@media (min-width:820px){ .statstrip{grid-template-columns:repeat(4,1fr)} }
+.stattile{background:var(--surface);border:2px solid var(--line);border-radius:4px;padding:12px}
+@media (prefers-reduced-motion:no-preference){ .stattile{transition:border-color .15s ease,transform .15s ease} }
+@media (hover:hover){ .stattile:hover{border-color:var(--turf);transform:translateY(-2px)} }
+.stat-num{font-size:clamp(30px,9vw,52px);line-height:1;font-variant-numeric:tabular-nums;color:var(--turf);font-family:Staatliches,'Arial Narrow',Impact,sans-serif;letter-spacing:.02em}
+.stat-label{font-size:12px;color:var(--ink-2);font-family:Staatliches,'Arial Narrow',Impact,sans-serif;letter-spacing:.02em;margin-top:4px}
+.stat-sub{font-size:13px;margin-top:4px;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;color:var(--ink-2)}
+.hashrule{display:flex;justify-content:space-between;padding-block:1.75rem;overflow:hidden}
+.hashtick{width:2px;height:10px;background:var(--line)}
+.hashtick.tall{height:14px;background:var(--turf)}
+#stars{padding-block:1.75rem}
+.star-row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.75rem;padding-block:1.25rem;border-bottom:1px solid var(--line)}
+.star-row:last-child{border-bottom:none}
+.badge{display:inline-grid;place-items:center;min-width:46px;padding:4px 8px;background:var(--turf);color:var(--surface);font-family:Staatliches;font-size:15px;border-radius:3px;margin-right:8px;clip-path:polygon(0 0,100% 0,100% 70%,50% 100%,0 70%);padding-bottom:6px}
+.star-head{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:clamp(20px,5.5vw,26px);letter-spacing:.02em;margin:0}
+.star-team{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:15px;color:var(--ink-2);margin-top:4px}
+.pill{padding:3px 9px;border-radius:3px;background:var(--turf);color:var(--surface);font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:16px;letter-spacing:.02em;font-variant-numeric:tabular-nums;margin-left:auto}
+.star-caption,.star-mgr{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.star-hl{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:18px;color:var(--pigskin);letter-spacing:.02em;margin:.5em 0 0}
+.star-mgr{margin-top:.5em}
+#stories{padding-block:1.75rem}
+.story-title{display:inline-block;padding:3px 8px;background:var(--flag);color:var(--on-flag);font-family:Staatliches;font-size:12px;letter-spacing:.02em;margin-bottom:.5em;clip-path:polygon(0 0,100% 0,calc(100% - 10px) 50%,100% 100%,0 100%);padding-right:28px}
+.story-head{font-size:clamp(20px,5vw,28px);color:var(--ink);margin:.5em 0}
+.story-caption{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:15px;color:var(--ink);margin:0}
+.story-who{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:18px;color:var(--turf);margin-top:0.5em}
+.story-figs{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-top:.75rem}
+.fig-tile{background:var(--surface);border:2px solid var(--line);border-radius:4px;padding:12px}
+.fig-num{font-size:clamp(24px,7vw,36px);font-family:Staatliches;color:var(--turf);font-variant-numeric:tabular-nums}
+.fig-label{font-size:12px;color:var(--ink-2);font-family:Staatliches;letter-spacing:.02em}
+.bench-list{list-style:none;margin:0;padding:0;font-size:13px;font-family:Chivo}
+.bench-item{display:flex;justify-content:space-between;margin-bottom:.25rem}
+.bench-item span:last-child{font-family:Staatliches;font-size:16px}
+.badbeat-num{font-size:clamp(64px,22vw,120px);font-family:Staatliches;color:var(--bad);line-height:.85;font-variant-numeric:tabular-nums;margin:.5em 0}
+@media (min-width:820px){ .badbeat-num{grid-column:1/-1} }
+#results{padding-block:1.75rem}
+.fix{border-bottom:1px solid var(--line)}
+.fix:last-child{border-bottom:none}
+.fix-row{display:grid;gap:.3rem;padding:10px 0}
+.fix-row.win{border-left:3px solid var(--flag)}
+.statstrip{width:min(100%,1180px);margin-inline:auto;padding-inline:20px}@media (min-width:900px){ .duo{width:min(100%,1180px);margin-inline:auto;padding-inline:20px} }
+.fix-row{font-family:Chivo,'Helvetica Neue',Arial,sans-serif}.fix-row.win{padding-left:10px}.tbl td:nth-child(3){white-space:nowrap}
+.fix-home,.fix-away{flex:1;display:flex;justify-content:space-between;align-items:center}
+.fix-score{font-family:Staatliches;font-size:20px;font-variant-numeric:tabular-nums}
+.fix-win{font-weight:700;color:var(--ink)}
+.fix-loss{color:var(--ink-2)}
+.final-chip{display:inline-flex;align-items:center;padding:2px 6px;border-radius:2px;background:var(--line);color:var(--ink-2);font-family:Staatliches;font-size:10px;letter-spacing:.02em;margin-left:8px}
+#table{padding-block:1.75rem}
+.scroll{overflow-x:auto}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th,.tbl td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line)}
+.tbl th{font-family:Staatliches;font-size:14px;color:var(--ink-2);letter-spacing:.02em;border-bottom:2px solid var(--turf);text-transform:uppercase}
+.tbl td{font-size:15px;font-family:Chivo}
+.tbl-num{font-family:Staatliches;font-size:16px;font-variant-numeric:tabular-nums;text-align:right}
+.tbl-owner{font-size:12px;color:var(--ink-2);font-family:Chivo}
+.tbl-move{font-family:Staatliches;font-size:13px;font-variant-numeric:tabular-nums}
+.tbl-move.up{color:var(--good)}
+.tbl-move.down{color:var(--bad)}
+.tbl-move.flat{color:var(--ink-2)}
+.yard-desc{font-family:Staatliches;font-size:13px;font-family:Chivo;color:var(--ink-2);margin-bottom:1rem}
+#injuries{padding-block:1.75rem}
+.inj-row{display:flex;flex-direction:column;gap:.5rem;padding-block:1rem;border-bottom:1px solid var(--line)}
+.inj-row:last-child{border-bottom:none}
+.inj-chip{align-self:flex-start;padding:3px 8px;border-radius:3px;font-family:Staatliches;font-size:12px;letter-spacing:.02em}
+.inj-chip.serious{background:var(--bad);color:var(--surface)}
+.inj-chip.quar{background:var(--mid);color:var(--surface)}
+.inj-player{font-family:Staatliches;font-size:18px;letter-spacing:.02em}
+.inj-meta{font-size:13px;color:var(--ink-2);font-family:Chivo}
+.inj-quip{font-style:italic;font-size:13px;color:var(--ink-2);font-family:Chivo;margin-top:.25rem}
+#extra{padding-block:1.75rem}
+.side-note{margin-bottom:.75rem}
+.side-head{font-family:Staatliches;font-size:18px;color:var(--pigskin);letter-spacing:.02em;margin-bottom:.5em}
+.side-txt{font-family:Chivo;font-size:15px;color:var(--ink);line-height:1.6}
+.foot{padding-block:1.75rem;text-align:center}
+.foot-intro{font-family:Chivo;font-size:15px;font-style:italic;margin-bottom:.75rem}
+.foot-meta{font-size:12px;color:var(--ink-2);font-family:Chivo;margin-bottom:1rem}
+.foot-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-bottom:1rem}
+.foot-link{display:inline-flex;align-items:center;min-height:40px;padding:0 13px;border:2px solid var(--line);border-radius:3px;text-decoration:none;color:var(--turf);font-family:Staatliches;font-size:14px;letter-spacing:.02em}
+.foot-link:hover{border-color:var(--flag);background:var(--flag);color:var(--on-flag)}
+.foot-link:focus-visible{outline:3px solid var(--flag);outline-offset:2px}
+.top-btn{min-height:44px;display:inline-flex;align-items:center;text-decoration:none;background:var(--turf);color:var(--surface);font-family:Staatliches;font-size:16px;letter-spacing:.02em;border-radius:3px;padding:0 16px}
+.top-btn:focus-visible{outline:3px solid var(--flag);outline-offset:2px}
+.sec-head{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:clamp(24px,6.5vw,34px);letter-spacing:.02em;color:var(--turf);margin:0 0 .75rem;display:flex;align-items:center;gap:8px}
+.ball-marker{width:18px;height:18px;display:inline-block}
+@media (hover:hover){ @media (prefers-reduced-motion:no-preference){ .star-row{transition:border-color .15s ease,transform .15s ease} } }
+@media (hover:hover){ @media (prefers-reduced-motion:no-preference){ .stattile:hover{border-color:var(--turf);transform:translateY(-2px)} } }
+@media (min-width:820px){ @media (hover:hover){ @media (prefers-reduced-motion:no-preference){ .star-row:hover{border-color:var(--turf);transform:translateY(-2px)} } } }
+@media (min-width:820px){ @media (hover:hover){ @media (prefers-reduced-motion:no-preference){ #stars .star-row:hover{border-color:var(--turf);transform:translateY(-2px)} } } }
+#table .duo-col{padding-bottom:20px}
+@media (min-width:900px){ .duo{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem} #results,#table{padding-bottom:0} }
+.gameball{display:inline-flex;align-items:center;padding:4px 8px;background:var(--flag);color:var(--on-flag);font-family:Staatliches;font-size:12px;letter-spacing:.02em;border:2px solid var(--on-flag);transform:rotate(-4deg);margin-left:12px}
+.penalty-flag{display:inline-flex;width:26px;height:26px;align-items:center;justify-content:center;margin-right:8px}
+#stars .duo-col{padding-bottom:20px}
+.hero-goalpost{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:120px;height:200px;opacity:0.18;pointer-events:none}
+@media (max-width:819px){ .hero-goalpost{display:none} }
+@media (min-width:820px){
+  #stars{display:grid;grid-template-columns:repeat(2,1fr);gap:1.75rem 2rem;align-items:start}
+  #stars>.sec-head{grid-column:1/-1}
+  #stories{display:grid;grid-template-columns:repeat(2,1fr);gap:1.75rem 2rem;align-items:start}
+  #stories>.sec-head{grid-column:1/-1}
+  #stories>.story-block:has(.badbeat-num){grid-column:1/-1}
+  #injuries{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem 2rem;align-items:start}
+  #injuries>.sec-head,#injuries>.yard-desc{grid-column:1/-1}
+  #extra{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;align-items:start}
+  #extra>.sec-head{grid-column:1/-1}
+}
+@media (min-width:1100px){
+  #stars{grid-template-columns:repeat(3,1fr)}
+}
+.star-row{display:grid;grid-template-columns:auto 1fr auto;column-gap:.6rem;row-gap:.35rem;align-items:center}
+.star-row>.badge{grid-column:1;grid-row:1;margin:0}
+.star-row>.star-head{grid-column:2;grid-row:1;margin:0}
+.star-row>.pill{grid-column:3;grid-row:1;justify-self:end;margin:0}
+.star-row>.star-team{grid-column:1/-1;grid-row:2}
+.star-row>.star-hl{grid-column:1/-1;grid-row:3}
+.star-row>.star-caption{grid-column:1/-1;grid-row:4}
+.star-row>.star-mgr{grid-column:1/-1;grid-row:5}
+.big-split{grid-template-columns:1fr}@media (min-width:640px){ .big-split{grid-template-columns:repeat(2,1fr)} }.big-split .fig-label{margin-bottom:.5rem}.zone-video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000;border:2px solid var(--line);border-radius:4px}
+#yards{padding-block:1.75rem}
+.bc-lede{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:17px;font-weight:700;color:var(--ink);margin:0 0 .6rem;max-width:62ch}
+.bc-key{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;list-style:none;margin:0 0 1rem;padding:0;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--ink-2)}
+.bc-key li{display:inline-flex;align-items:center;gap:7px}
+.bc-sw{display:inline-block;width:14px;height:14px;border-radius:3px}
+.bc-sw.scored,.sb-row.scored .sb-bar{background:var(--turf)}
+.bc-sw.bench,.sb-row.bench .sb-bar{background:color-mix(in srgb,var(--ink-2) 55%,transparent)}
+.bc-sw.best,.sb-row.best .sb-bar{background:var(--target)}
+.bc-grid{display:grid;gap:12px}
+@media (min-width:900px){ .bc-grid{grid-template-columns:repeat(2,1fr);gap:16px;align-items:start} }
+.sb{background:var(--surface);border:2px solid var(--line);border-radius:4px;padding:12px 14px 10px}
+.sb.flip{border-left:6px solid var(--bad)}
+.sb-head{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:10px;margin-bottom:10px}
+.sb-res{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:3px;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:16px}
+.sb-res.w{background:var(--turf);color:var(--surface)}
+.sb-res.l{border:2px solid var(--line);color:var(--ink-2)}
+.sb-name{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:21px;line-height:1.05;letter-spacing:.02em;color:var(--ink)}
+.sb-team{display:block;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:0;text-transform:none;color:var(--ink-2);line-height:1.3;margin-top:2px}
+.sb-left{font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:var(--ink-2);text-align:right;max-width:11em}
+.sb-row{display:grid;grid-template-columns:3.6rem minmax(0,1fr);align-items:center;column-gap:8px;margin-bottom:6px}
+.sb-lab{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:14px;letter-spacing:.02em;color:var(--ink-2)}
+.sb-track{display:flex;align-items:center;gap:8px}
+.sb-bar{display:block;height:20px;border-radius:0 4px 4px 0;flex:none}
+.sb-val{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:18px;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.sb-flag{margin:8px 0 2px;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:13.5px;font-weight:700;color:var(--ink)}
+.sb-flag::before{content:"";display:inline-block;width:10px;height:10px;margin-right:7px;border-radius:2px;background:var(--bad)}
+.bc-total{background:var(--surface);border:2px solid var(--line);border-radius:4px;padding:14px}
+.bc-total .stat-label{margin:0}
+.bc-total-num{margin:4px 0 10px;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:clamp(40px,11vw,56px);line-height:1;color:var(--turf)}
+.bc-weeks{display:flex;list-style:none;margin:0;padding:0}
+.bc-weeks li{display:flex;flex-direction:column;align-items:center}
+.bc-wplot{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;width:76px;height:88px;border-bottom:1px solid var(--line)}
+.bc-wbar{display:block;width:24px;border-radius:4px 4px 0 0;background:color-mix(in srgb,var(--ink-2) 40%,transparent)}
+.bc-weeks li.now .bc-wbar{background:var(--turf)}
+.bc-wv{font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:13px;color:var(--ink-2);margin-bottom:3px}
+.bc-weeks li.now .bc-wv{color:var(--ink)}
+.bc-wl{margin-top:5px;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:11px;color:var(--ink-2);white-space:nowrap}
+.bc-total-txt{margin:12px 0 0;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.5;font-style:italic;color:var(--ink-2)}
+
+#stories>.story-block.wide{grid-column:1/-1}
+#stories>.story-block.half{grid-column:auto}
+.deal{background:var(--surface);border:3px solid var(--flag);border-radius:4px;padding:16px}
+.deal-grid{display:grid;grid-template-columns:1fr;gap:.75rem;margin:.9rem 0 1rem}
+@media (min-width:640px){ .deal-grid{grid-template-columns:repeat(2,1fr)} }
+.deal-side{border:2px solid var(--line);border-radius:4px;padding:12px;background:var(--bg)}
+.deal-side .fig-label{margin-bottom:.5rem}
+.deal-total{display:flex;justify-content:space-between;align-items:baseline;border-top:2px solid var(--turf);margin-top:.5rem;padding-top:.4rem;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;letter-spacing:.02em}
+.deal-total span:first-child{font-size:12px;color:var(--ink-2)}
+.deal-total span:last-child{font-size:30px;line-height:1;color:var(--turf);font-variant-numeric:tabular-nums}
+.deal-verdict{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem;margin:.9rem 0}
+.deal-verdict .fig-tile{padding:10px 8px}
+.deal-verdict .fig-num{font-size:clamp(22px,6.5vw,36px)}
+.deal-verdict .fig-label{font-size:11px;line-height:1.3}
+@media (min-width:640px){ .deal-verdict{gap:.75rem} .deal-verdict .fig-tile{padding:12px} .deal-verdict .fig-label{font-size:12px} }
+@media (max-width:819px){ .deal,.rumour{margin-block:1.25rem} }
+.deal-other{margin-top:1rem;padding-top:1rem;border-top:2px dashed var(--line)}
+.deal .story-caption+.story-caption{margin-top:.75rem}
+.rumour-quote{margin:.75rem 0 1rem;padding:14px 16px;border-left:6px solid var(--bad);background:var(--surface);border-radius:0 4px 4px 0}
+.rumour-quote p{margin:0;font-family:Staatliches,'Arial Narrow',Impact,sans-serif;font-size:clamp(22px,6vw,34px);line-height:1.15;letter-spacing:.02em;color:var(--ink)}
+.rumour-quote footer{margin-top:.5rem;font-family:Chivo,'Helvetica Neue',Arial,sans-serif;font-size:14px;font-style:italic;color:var(--ink-2)}
+.bc-weeks.five{justify-content:space-between}
+.bc-weeks.five li{flex:1 1 0;min-width:0}
+.bc-weeks.five .bc-wplot{width:100%}
+</style>
+</head>
+<body id="top">
+<svg style="display:none" aria-hidden="true"><symbol id="ball" viewBox="0 0 48 48"><ellipse cx="24" cy="24" rx="18" ry="28" fill="currentColor"/><path d="M18 16q1-3 4-3t4 3q-1 2-4 2t-4-2M20 26q1-3 4-3t4 3q-1 2-4 2t-4-2M18 36q1-3 4-3t4 3q-1 2-4 2t-4-2" fill="white" opacity="0.9"/></symbol><symbol id="helmet" viewBox="0 0 32 32"><path d="M4 18q0-6 6-9t16-3q6 0 6 5v6q0 4-3 7t-8 3H9q-5 0-6-4z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 14h4M10 10h4M14 14h4M20 10h4" stroke="currentColor" stroke-width="1.5"/><path d="M18 20l4 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol></svg>
+<div class="hero">
+<div class="wrap">
+<div class="hero-goalpost">
+<svg aria-hidden="true" viewBox="0 0 80 140">
+<line x1="40" y1="140" x2="40" y2="10" stroke="currentColor" stroke-width="3" fill="none"/>
+<line x1="2" y1="140" x2="78" y2="140" stroke="currentColor" stroke-width="3" fill="none"/>
+<line x1="40" y1="10" x2="40" y2="2" stroke="currentColor" stroke-width="2" fill="none"/>
+</svg>
+</div>
+<p class="hero-meta">Dont tell your motha · Week 5 · 2026 Season · 10-Team PPR</p>
+<h1>JACK WON THE TRADE. JAKE WON A GAME.</h1>
+<p class="hero-intro paragraph">Gentlemen. The biggest week of the season. The league averaged 145.15 a team, eleven starters scored 30 or more, and Gorvel posted 196.40, the highest score anyone has managed this season. He posted it against Jack, whose 160.60 was the third-best score of the week, came from the best lineup he could have picked, and lost by 35.80. On Wednesday Jack traded James Cook and Zay Flowers to Jake for Ja'Marr Chase, Sam LaPorta and D'Andre Swift. Jack's three outscored Jake's two by 18.40. Jack lost, and Jake, the last team without a win, won. Tom started Kenyon Sadiq again and is top of the table. Dara got two tight ends in 47 minutes and started the wrong one. Scody's bench scored 0.00. And there are rumours coming out of Half Chubb headquarters.</p>
+<nav class="week-nav" aria-label="Review weeks">
+<a class="week-chip" href="../week-1/">WEEK 1</a>
+<a class="week-chip" href="../week-2/">WEEK 2</a>
+<a class="week-chip" href="../week-3/">WEEK 3</a>
+<a class="week-chip" href="../week-4/">WEEK 4</a>
+<a class="week-chip" href="../week-5/" aria-current="page">WEEK 5</a>
+</nav>
+</div>
+<div class="endzone-hatch" aria-hidden="true">
+<div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div><div class="endzone-tick"></div>
+</div>
+</div>
+<nav class="nav">
+<div class="wrap">
+<ul class="nav-list">
+<li><a href="#stars" class="nav-link">Awards</a></li>
+<li><a href="#stories" class="nav-link">Stories</a></li>
+<li><a href="#deal" class="nav-link">The Deal</a></li>
+<li><a href="#results" class="nav-link">Results</a></li>
+<li><a href="#table" class="nav-link">Table</a></li>
+<li><a href="#yards" class="nav-link">Bench</a></li>
+<li><a href="#injuries" class="nav-link">Medical Bay</a></li>
+<li><a href="#extra" class="nav-link">Extra</a></li>
+</ul>
+</div>
+</nav>
+<div class="hashrule">
+<span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick tall"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick"></span><span class="hashtick tall"></span>
+</div>
+<div class="statstrip">
+<div class="stattile"><div class="stat-num">196.40</div><div class="stat-label">HIGH SCORE</div><div class="stat-sub">Gorvel, the highest of the season</div></div>
+<div class="stattile"><div class="stat-num">145.15</div><div class="stat-label">LEAGUE AVERAGE</div><div class="stat-sub">the highest of any week, by 16.29</div></div>
+<div class="stattile"><div class="stat-num">+18.40</div><div class="stat-label">THE TRADE</div><div class="stat-sub">Jack's three over Jake's two</div></div>
+<div class="stattile"><div class="stat-num">75.96</div><div class="stat-label">LEFT ON BENCHES</div><div class="stat-sub">the lowest of the season</div></div>
+</div>
+<section id="stars" class="wrap">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>THE TEAM SHEET</h2>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>QB1</div>
+<div>
+<div class="star-head">Drake Maye</div>
+<div class="star-team">NE · danokeeffe</div>
+<p class="star-hl">MAYE, AGAIN</p>
+<p class="star-caption">26 of 34 for 374 yards and four touchdowns, and another on the ground, as New England beat Las Vegas 45-17: 40.46, the best quarterback score of the week and the second-best of the season, behind Josh Allen's 40.82 in Week 2. Last week this page recorded a correct quarterback decision by Dano, for the archive. Here is another one: Justin Herbert scored 10.24 on the bench.</p>
+<p class="star-mgr">Started by danokeeffe</p>
+</div>
+<div class="pill">40.46</div>
+</div>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>RB1</div>
+<div>
+<div class="star-head">Jaylen Warren</div>
+<div class="star-team">PIT · The Mighty Blues</div>
+<p class="star-hl">THIS PAGE SAID SO</p>
+<p class="star-caption">101 yards and a touchdown on the ground, six catches for 87 yards and another touchdown through the air, in Pittsburgh's 34-22 win over Indianapolis: 40.80, the top score of Week 5 at any position. Last week Warren scored 15.60 on Tom's bench and this page said to start him. Tom did, in the flex. It is the second-best running back score of the season. The best is Jahmyr Gibbs' 41.40 in Week 3, also for Tom, and Gibbs added 38.70 this week.</p>
+<p class="star-mgr">Started by The Mighty Blues</p>
+</div>
+<div class="pill">40.80</div>
+</div>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>WR1</div>
+<div>
+<div class="star-head">Puka Nacua</div>
+<div class="star-team">LAR · 2001 New York Jets</div>
+<p class="star-hl">SEVENTEEN CATCHES</p>
+<p class="star-caption">24 targets, 17 catches, 138 yards and a touchdown on Monday night, in the Rams' 37-34 defeat to Buffalo: 38.70, the best receiver score of the week. Gorvel went into Monday 20.90 ahead of Jack, and Puka made sure of it. Last week CeeDee Lamb caught 17 passes for Dano. This week Lamb scored 2.90.</p>
+<p class="star-mgr">Started by 2001 New York Jets</p>
+</div>
+<div class="pill">38.70</div>
+</div>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>TE1</div>
+<div>
+<div class="star-head">Isaiah Likely</div>
+<div class="star-team">NYG · danokeeffe</div>
+<p class="star-hl">THE TIGHT END RECORD</p>
+<p class="star-caption">11 catches, 94 yards and two touchdowns in a 27-27 tie in Washington: 32.40, the best tight end score of the season, ahead of the 28.60 Brock Bowers scored on Hegs' bench in Week 3. Dano started him over Colston Loveland, 3.90. That is the right call for the second week running, by 28.50 this time. The Contrary Indicator Club is managing without him.</p>
+<p class="star-mgr">Started by danokeeffe</p>
+</div>
+<div class="pill">32.40</div>
+</div>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>K</div>
+<div>
+<div class="star-head">Jason Myers</div>
+<div class="star-team">SEA · 2001 New York Jets</div>
+<p class="star-hl">FIVE FROM FIVE, AGAIN</p>
+<p class="star-caption">Five field goals from five attempts, the longest from 50, and two extra points, in Seattle's 32-29 defeat to San Francisco: 23.00, the best kicker score of the season. Last week Will Reichard also went five from five with a long of 50, for 19.00. Kicking has been solved, and Gorvel has it.</p>
+<p class="star-mgr">Started by 2001 New York Jets</p>
+</div>
+<div class="pill">23.00</div>
+</div>
+<div class="star-row">
+<div class="badge"><svg class="ball-marker" aria-hidden="true" style="width:16px;height:16px;color:var(--turf-2);margin-right:2px"><use href="#helmet"></use></svg>DEF</div>
+<div>
+<div class="star-head">Houston Texans</div>
+<div class="star-team">HOU · The Mighty Blues</div>
+<p class="star-hl">THREE POINTS ALLOWED</p>
+<p class="star-caption">Four sacks, an interception and a fumble recovery, and Tennessee held to a field goal in Houston's 26-3 win: 21.00, the best defence score of the week. It is the third-best of the season, behind New England's 27.00 for Hegs in Week 2 and Pittsburgh's 23.00 for Jack in Week 1.</p>
+<p class="star-mgr">Started by The Mighty Blues</p>
+</div>
+<div class="pill">21.00</div>
+</div>
+</section>
+<section id="stories" class="wrap">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>THE BIG STORIES</h2>
+<div class="story-block">
+<span class="story-title">STORY OF THE WEEK</span>
+<div class="gameball">GAME BALL</div>
+<div class="story-who">2001 New York Jets 196.40 · KansasKeefKings 160.60</div>
+<h3 class="story-head">196.40: THE HIGHEST SCORE OF THE SEASON</h3>
+<p class="story-caption">Gorvel scored 196.40, the most anyone has scored in a week this season, and 12.74 more than the old record: Jack's 183.66 in Week 1. It was Jack he beat. Puka Nacua scored 38.70. Bucky Irving ran for 165 yards and scored twice: 32.50. George Pickens 29.00. Jason Myers went five from five: 23.00. And Joe Burrow, started at last, threw four touchdown passes for 24.60, while Trevor Lawrence threw for 331 yards on the bench and scored 24.74. Gorvel finally picked the other quarterback, and it was the wrong one by 0.14. It nearly reached 200. Terry McLaurin, who arrived in a trade on Wednesday morning, scored 12.20 on the bench while Keon Coleman scored 7.70 in the flex, receiver for receiver. With McLaurin in, Gorvel scores 200.90, the first 200 of the season. Gorvel is 3-2 and up to fourth.</p><div class="story-figs">
+<div class="fig-tile"><div class="fig-num">196.40</div><div class="fig-label">TOTAL</div></div>
+<div class="fig-tile"><div class="fig-num">+12.74</div><div class="fig-label">OVER THE OLD RECORD</div></div>
+<div class="fig-tile"><div class="fig-num">357.00</div><div class="fig-label">POINTS IN THE GAME, A RECORD</div></div>
+<div class="fig-tile"><div class="fig-num">200.90</div><div class="fig-label">WITH McLAURIN</div></div>
+</div>
+</div>
+<div class="story-block half">
+<span class="story-title">BEAT OF THE WEEK</span>
+<div class="story-who">KansasKeefKings 160.60 · 2001 New York Jets 196.40</div>
+<h3 class="story-head">THE BEST LINEUP HE HAD</h3>
+<div class="badbeat-num">160.60</div>
+<p class="story-caption">Jack's 160.60 was the third-best score of the week. It would have beaten seven of the other nine teams, and it was the best lineup he could have picked: nothing on his bench would have added a point. Christian Watson caught two touchdowns (33.30), Josh Allen ran for 121 yards (31.50), and all three players from Wednesday's trade started and scored 17.30 or more. He lost by 35.80. Going into Monday night he trailed by 20.90, with Allen still to play in Los Angeles and Puka Nacua and Keon Coleman in the same game for Gorvel. Allen scored 31.50. They scored 46.40. In Week 2 Jack lost what was then the highest-scoring game of the season, 143.92 to Conor's 180.18. He has now been on the losing side of the two highest-scoring games of the season.</p>
+</div>
+<div id="deal" class="story-block wide deal" style="scroll-margin-top:72px;">
+<span class="story-title">THE ART OF THE DEAL</span>
+<div class="story-who">KansasKeefKings ⇄ X Gon’ Gibbs It To Ya · Wednesday</div>
+<h3 class="story-head">THE GREATEST TRADE IN THE HISTORY OF TRADES, MAYBE EVER</h3>
+<p class="story-caption">Wednesday. Jack and Jake made a deal. A beautiful deal. Jack sent James Cook and Zay Flowers to Jake. Jake sent Ja'Marr Chase, Sam LaPorta and D'Andre Swift to Jack. Three for two. That is more players, folks. We counted. It is three. Chase was in last week's Medical Bay with a concussion; on Sunday he caught a touchdown in Miami (19.70). LaPorta caught one in Arizona (19.80). Swift scored Chicago's only touchdown in a 31-7 defeat (17.30). All three started: 56.80. Cook and Flowers both started for Jake: 38.40. Jack wins the trade by 18.40. Tremendous numbers. Some people are saying the best numbers.</p>
+<div class="deal-grid">
+<div class="deal-side"><div class="fig-label">JACK GOT</div>
+<ul class="bench-list">
+<li class="bench-item"><span>Ja'Marr Chase · WR · CIN</span><span>19.70</span></li>
+<li class="bench-item"><span>Sam LaPorta · TE · DET</span><span>19.80</span></li>
+<li class="bench-item"><span>D'Andre Swift · RB · CHI</span><span>17.30</span></li>
+</ul>
+<div class="deal-total"><span>ALL STARTED</span><span>56.80</span></div>
+</div>
+<div class="deal-side"><div class="fig-label">JAKE GOT</div>
+<ul class="bench-list">
+<li class="bench-item"><span>James Cook · RB · BUF</span><span>23.80</span></li>
+<li class="bench-item"><span>Zay Flowers · WR · BAL</span><span>14.60</span></li>
+</ul>
+<div class="deal-total"><span>ALL STARTED</span><span>38.40</span></div>
+</div>
+</div>
+<p class="story-caption">Then the results came in. Jack scored 160.60 and lost to the highest score of the season. Jake, 0-4 and the only team in the league without a win, went into Monday night 0.28 ahead of Scody with one player left: James Cook. Cook ran for 111 yards and two touchdowns at the Rams, Jake won by 24.08, and it was his first win of the season. So who won the trade?</p>
+<div class="deal-verdict">
+<div class="fig-tile"><div class="fig-num">JACK</div><div class="fig-label">TOTAL POINTS, BY 18.40</div></div>
+<div class="fig-tile"><div class="fig-num">JAKE</div><div class="fig-label">POINTS PER PLAYER, BY 0.27</div></div>
+<div class="fig-tile"><div class="fig-num">JAKE</div><div class="fig-label">WINS SINCE THE DEAL, 1-0</div></div>
+</div>
+<p class="story-caption">Many people are calling it a tie. This page is not calling it a tie. This page will be watching this trade very closely. Very, very closely.</p>
+<div class="deal-other">
+<p class="side-head">THE OTHER DEAL</p>
+<p class="side-txt">Earlier on Wednesday, Gorvel sent Ladd McConkey and Tyler Warren to Dara for Terry McLaurin and Josh Downs. Four players changed teams, and in Week 5 none of them started. Warren scored 21.40 on Dara's bench and McConkey did not play. McLaurin scored 12.20 on Gorvel's bench and Downs scored 7.70. On bench points, Dara wins 21.40 to 19.90. Nobody counts bench points. Both of them won.</p>
+</div>
+</div>
+<div class="story-block wide">
+<span class="story-title">THE HUGE SCORES</span>
+<div class="story-who">Every starter, every week · Weeks 1 to 5</div>
+<h3 class="story-head">ELEVEN OVER THIRTY</h3>
+<p class="story-caption">Week 5 was the biggest week of the season. The league averaged 145.15 a team, 16.29 more than the previous best week (Week 1, 128.86). Eleven starters scored 30 or more, the most in any week; Week 1 had ten. Gorvel and Jack's game produced 357.00 points, the most in any matchup this season. The lowest score of the week was Scody's 115.18, and in Weeks 1 to 4 the lowest score was never higher than 87.18. Tom and Dano had three 30-point players each, Gorvel and Jack two each, Dara one. The other five managers had none.</p><div class="story-figs big-split">
+<div class="fig-tile"><div class="fig-label">THIRTY-POINT STARTERS</div>
+<ul class="bench-list">
+<li class="bench-item"><span>Jaylen Warren — Tom</span><span>40.80</span></li>
+<li class="bench-item"><span>Drake Maye — Dano</span><span>40.46</span></li>
+<li class="bench-item"><span>Puka Nacua — Gorvel</span><span>38.70</span></li>
+<li class="bench-item"><span>Jahmyr Gibbs — Tom</span><span>38.70</span></li>
+<li class="bench-item"><span>Christian Watson — Jack</span><span>33.30</span></li>
+<li class="bench-item"><span>Jayden Daniels — Dara</span><span>33.26</span></li>
+<li class="bench-item"><span>Bucky Irving — Gorvel</span><span>32.50</span></li>
+<li class="bench-item"><span>Isaiah Likely — Dano</span><span>32.40</span></li>
+<li class="bench-item"><span>Josh Allen — Jack</span><span>31.50</span></li>
+<li class="bench-item"><span>Parker Washington — Dano</span><span>31.40</span></li>
+<li class="bench-item"><span>Malik Nabers — Tom</span><span>30.10</span></li>
+</ul>
+</div>
+<div class="fig-tile"><div class="fig-label">LEAGUE AVERAGE, BY WEEK</div>
+<ul class="bc-weeks five" aria-label="League average score by week">
+<li><span class="bc-wplot"><span class="bc-wv">128.86</span><span class="bc-wbar" style="height:57px"></span></span><span class="bc-wl">WEEK 1</span></li><li><span class="bc-wplot"><span class="bc-wv">122.40</span><span class="bc-wbar" style="height:54px"></span></span><span class="bc-wl">WEEK 2</span></li><li><span class="bc-wplot"><span class="bc-wv">119.43</span><span class="bc-wbar" style="height:53px"></span></span><span class="bc-wl">WEEK 3</span></li><li><span class="bc-wplot"><span class="bc-wv">124.33</span><span class="bc-wbar" style="height:55px"></span></span><span class="bc-wl">WEEK 4</span></li><li class="now"><span class="bc-wplot"><span class="bc-wv">145.15</span><span class="bc-wbar" style="height:64px"></span></span><span class="bc-wl">WEEK 5</span></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="story-block">
+<span class="story-title">THE WOODEN SPOON</span>
+<div class="story-who">Lombardeez Nutz · Scody94</div>
+<h3 class="story-head">A PERFECT LINEUP, AND THE LOWEST SCORE. AGAIN.</h3>
+<p class="story-caption">115.18, the lowest score of Week 5, from a lineup that was 100% efficient. For the second week running the bottom score came from a perfect lineup, because, for the second week running, nothing on the bench played. Marvin Harrison, signed on Saturday for Jordan Addison: did not play. Addison did not play either. Stefon Diggs, Saquon Barkley and Rico Dowdle: out. Josh Jacobs: away. Patrick Mahomes: bye. Six players, 0.00. It was not for lack of trying. On Wednesday Scody released Jalen Hurts and signed Jacoby Brissett, who threw for 292 yards and three touchdowns: 25.28. Tom picked Hurts up on Friday and started him: 15.00. Quarterback for quarterback, Scody won that one by 10.28. Then David Montgomery played nine snaps, scored 1.10 and went to the Medical Bay, and Jake went into Monday night 0.28 ahead with James Cook still to play. Scody is 2-3.</p><div class="story-figs">
+<div class="fig-tile"><div class="fig-num">115.18</div><div class="fig-label">TOTAL</div></div>
+<div class="fig-tile"><div class="fig-num">100.0%</div><div class="fig-label">EFFICIENCY</div></div>
+<div class="fig-tile"><div class="fig-num">0.00</div><div class="fig-label">BENCH</div></div>
+<div class="fig-tile"><div class="fig-num">+10.28</div><div class="fig-label">BRISSETT OVER HURTS</div></div>
+</div>
+</div>
+<div class="story-block">
+<span class="story-title">MANAGER OF THE WEEK (DEROGATORY)</span>
+<div class="story-who">D'Andre Spliff · DAndreSpliff</div>
+<h3 class="story-head"><svg class="penalty-flag" aria-hidden="true" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" fill="var(--flag)" transform="rotate(-12deg)"/></svg>TWO TIGHT ENDS IN 47 MINUTES, AND HE STARTED THE WRONG ONE</h3>
+<p class="story-caption">On Wednesday morning Dara's waiver claim for T.J. Hockenson went through, at the cost of Dalton Schultz. Forty-seven minutes later his trade with Gorvel went through too, and with it came Tyler Warren. He started Hockenson. Hockenson played two snaps and is now out with a concussion: 1.70. Warren scored a rushing touchdown and caught seven passes for 83 yards on the bench: 21.40. That is 19.70, tight end for tight end. With Jacory Croskey-Merritt's 14.20 also on the bench, Dara left 25.30 on the bench, the most in the league. He won anyway, by 15.02, because Jayden Daniels, out last week, came back with 103 rushing yards and two touchdowns: 33.26. Dara is 3-2.</p><div class="story-figs">
+<div class="fig-tile"><div class="fig-num">1.70</div><div class="fig-label">HOCKENSON, STARTED</div></div>
+<div class="fig-tile"><div class="fig-num">21.40</div><div class="fig-label">WARREN, BENCHED</div></div>
+<div class="fig-tile"><div class="fig-num">25.30</div><div class="fig-label">LEFT ON THE BENCH</div></div>
+<div class="fig-tile"><div class="fig-num">47</div><div class="fig-label">MINUTES BETWEEN THEM</div></div>
+</div>
+</div>
+<div class="story-block wide rumour">
+<span class="story-title">THE RUMOUR MILL</span>
+<div class="story-who">RipSirNicolasChubb · IanMcAuliffe</div>
+<blockquote class="rumour-quote"><p>“Rumours circulating Half Chubb headquarters about tanking for Jeremiah Smith.”</p><footer>— Anonymous Source(s)</footer></blockquote>
+<p class="story-caption">This page cannot confirm the rumours. It can confirm that Ian is 1-4 and bottom of the table after a 15.02 defeat to Dara, and that he already has one Jeremiyah: Jeremiyah Love, 2.20 on the bench. It can also confirm some unusual tanking. On Wednesday Ian swapped Tyler Shough (−0.16 this week) for Jared Goff (28.94), and the Chicago defence (2.00) for Cleveland's (16.00). He lost anyway: his best possible lineup, 133.84, would still have lost. Whether that was the plan, the sources did not say.</p>
+</div>
+</section>
+<div class="duo">
+<section id="results" class="duo-col">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>THE RESULTS</h2>
+<div class="fix">
+<div class="fix-row win"><div class="fix-home"><span class="fix-win">2001 New York Jets</span><span class="fix-score">196.40 <span class="final-chip">FINAL</span></span></div><div class="fix-away"><span class="fix-loss">KansasKeefKings</span><span class="fix-score">160.60 <span class="final-chip">FINAL</span></span></div></div>
+</div>
+<div class="fix">
+<div class="fix-row win"><div class="fix-home"><span class="fix-win">The Mighty Blues</span><span class="fix-score">168.60 <span class="final-chip">FINAL</span></span></div><div class="fix-away"><span class="fix-loss">The Dawg Pound Dropouts</span><span class="fix-score">132.22 <span class="final-chip">FINAL</span></span></div></div>
+</div>
+<div class="fix">
+<div class="fix-row win"><div class="fix-home"><span class="fix-win">danokeeffe</span><span class="fix-score">148.26 <span class="final-chip">FINAL</span></span></div><div class="fix-away"><span class="fix-loss">TheHegs</span><span class="fix-score">121.92 <span class="final-chip">FINAL</span></span></div></div>
+</div>
+<div class="fix">
+<div class="fix-row win"><div class="fix-home"><span class="fix-win">D&#x27;Andre Spliff</span><span class="fix-score">142.06 <span class="final-chip">FINAL</span></span></div><div class="fix-away"><span class="fix-loss">RipSirNicolasChubb</span><span class="fix-score">127.04 <span class="final-chip">FINAL</span></span></div></div>
+</div>
+<div class="fix">
+<div class="fix-row win"><div class="fix-home"><span class="fix-win">X Gon’ Gibbs It To Ya</span><span class="fix-score">139.26 <span class="final-chip">FINAL</span></span></div><div class="fix-away"><span class="fix-loss">Lombardeez Nutz</span><span class="fix-score">115.18 <span class="final-chip">FINAL</span></span></div></div>
+</div>
+</section>
+<section id="table" class="duo-col">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>THE TABLE</h2>
+<div class="scroll">
+<table class="tbl">
+<thead><tr><th scope="col">#</th><th scope="col">TEAM</th><th scope="col">REC</th><th scope="col">PF</th><th scope="col">+/-</th></tr></thead>
+<tbody>
+<tr><td class="tbl-num">1</td><td>The Mighty Blues<div class="tbl-owner">tomsam23</div></td><td>4-1</td><td class="tbl-num">700.08</td><td class="tbl-num tbl-move up">+2</td></tr>
+<tr><td class="tbl-num">2</td><td>KansasKeefKings<div class="tbl-owner">jackCronin</div></td><td>3-2</td><td class="tbl-num">762.56</td><td class="tbl-num tbl-move down">−1</td></tr>
+<tr><td class="tbl-num">3</td><td>TheHegs<div class="tbl-owner">TheHegs</div></td><td>3-2</td><td class="tbl-num">715.46</td><td class="tbl-num tbl-move down">−1</td></tr>
+<tr><td class="tbl-num">4</td><td>2001 New York Jets<div class="tbl-owner">Gorvel</div></td><td>3-2</td><td class="tbl-num">682.28</td><td class="tbl-num tbl-move up">+1</td></tr>
+<tr><td class="tbl-num">5</td><td>D&#x27;Andre Spliff<div class="tbl-owner">DAndreSpliff</div></td><td>3-2</td><td class="tbl-num">588.96</td><td class="tbl-num tbl-move up">+2</td></tr>
+<tr><td class="tbl-num">6</td><td>danokeeffe<div class="tbl-owner">danokeeffe</div></td><td>3-2</td><td class="tbl-num">535.72</td><td class="tbl-num tbl-move up">+2</td></tr>
+<tr><td class="tbl-num">7</td><td>The Dawg Pound Dropouts<div class="tbl-owner">conork29</div></td><td>2-3</td><td class="tbl-num">659.58</td><td class="tbl-num tbl-move down">−3</td></tr>
+<tr><td class="tbl-num">8</td><td>Lombardeez Nutz<div class="tbl-owner">Scody94</div></td><td>2-3</td><td class="tbl-num">593.70</td><td class="tbl-num tbl-move down">−2</td></tr>
+<tr><td class="tbl-num">9</td><td>X Gon’ Gibbs It To Ya<div class="tbl-owner">JakeM1998</div></td><td>1-4</td><td class="tbl-num">584.38</td><td class="tbl-num tbl-move up">+1</td></tr>
+<tr><td class="tbl-num">10</td><td>RipSirNicolasChubb<div class="tbl-owner">IanMcAuliffe</div></td><td>1-4</td><td class="tbl-num">578.98</td><td class="tbl-num tbl-move down">−1</td></tr>
+</tbody>
+</table>
+</div>
+<p class="yard-desc" style="margin-top:.75rem">PF is season points for, after five weeks. +/- is movement since Week 4. Tom is top on his own at 4-1. Five teams are 3-2, and Jack, in second, has the most points in the league. Jake's first win takes him off the bottom. Ian is last.</p>
+</section>
+</div>
+<section id="yards" class="wrap" style="scroll-margin-top:72px;">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>WHAT THE BENCH COST</h2>
+<p class="bc-lede">None of the five losers had a winning lineup on the bench, so every result stands. Two of them, Jack and Scody, played the best lineup they had.</p>
+<ul class="bc-key"><li><span class="bc-sw scored"></span>Scored: the lineup they started</li><li><span class="bc-sw bench"></span>Bench: everything their bench scored</li><li><span class="bc-sw best"></span>Best: the best possible legal lineup</li></ul>
+<div class="bc-grid">
+<article class="sb" data-nick="Dara"><div class="sb-head"><span class="sb-res w" aria-label="Won">W</span><span class="sb-name">Dara<span class="sb-team">D&#x27;Andre Spliff</span></span><span class="sb-left">left 25.30 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6930)"></span><span class="sb-val">142.06</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1737)"></span><span class="sb-val">35.60</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.8164)"></span><span class="sb-val">167.36</span></span></div></article>
+<article class="sb" data-nick="Tom"><div class="sb-head"><span class="sb-res w" aria-label="Won">W</span><span class="sb-name">Tom<span class="sb-team">The Mighty Blues</span></span><span class="sb-left">left 16.70 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.8224)"></span><span class="sb-val">168.60</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1302)"></span><span class="sb-val">26.70</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.9039)"></span><span class="sb-val">185.30</span></span></div></article>
+<article class="sb" data-nick="Jake"><div class="sb-head"><span class="sb-res w" aria-label="Won">W</span><span class="sb-name">Jake<span class="sb-team">X Gon’ Gibbs It To Ya</span></span><span class="sb-left">left 8.40 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6793)"></span><span class="sb-val">139.26</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1445)"></span><span class="sb-val">29.62</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.7203)"></span><span class="sb-val">147.66</span></span></div></article>
+<article class="sb" data-nick="Ian"><div class="sb-head"><span class="sb-res l" aria-label="Lost">L</span><span class="sb-name">Ian<span class="sb-team">RipSirNicolasChubb</span></span><span class="sb-left">left 6.80 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6197)"></span><span class="sb-val">127.04</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1712)"></span><span class="sb-val">35.10</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6529)"></span><span class="sb-val">133.84</span></span></div></article>
+<article class="sb" data-nick="Dano"><div class="sb-head"><span class="sb-res w" aria-label="Won">W</span><span class="sb-name">Dano<span class="sb-team">danokeeffe</span></span><span class="sb-left">left 6.30 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.7232)"></span><span class="sb-val">148.26</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1031)"></span><span class="sb-val">21.14</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.7540)"></span><span class="sb-val">154.56</span></span></div></article>
+<article class="sb" data-nick="Gorvel"><div class="sb-head"><span class="sb-res w" aria-label="Won">W</span><span class="sb-name">Gorvel<span class="sb-team">2001 New York Jets</span></span><span class="sb-left">left 4.64 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.9580)"></span><span class="sb-val">196.40</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.2256)"></span><span class="sb-val">46.24</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.9807)"></span><span class="sb-val">201.04</span></span></div></article>
+<article class="sb" data-nick="Conor"><div class="sb-head"><span class="sb-res l" aria-label="Lost">L</span><span class="sb-name">Conor<span class="sb-team">The Dawg Pound Dropouts</span></span><span class="sb-left">left 4.30 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6450)"></span><span class="sb-val">132.22</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.1707)"></span><span class="sb-val">35.00</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6660)"></span><span class="sb-val">136.52</span></span></div></article>
+<article class="sb" data-nick="Hegs"><div class="sb-head"><span class="sb-res l" aria-label="Lost">L</span><span class="sb-name">Hegs<span class="sb-team">TheHegs</span></span><span class="sb-left">left 3.52 on the bench</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.5947)"></span><span class="sb-val">121.92</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.0761)"></span><span class="sb-val">15.60</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.6119)"></span><span class="sb-val">125.44</span></span></div></article>
+<article class="sb" data-nick="Jack"><div class="sb-head"><span class="sb-res l" aria-label="Lost">L</span><span class="sb-name">Jack<span class="sb-team">KansasKeefKings</span></span><span class="sb-left">played the best lineup available</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.7834)"></span><span class="sb-val">160.60</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.0424)"></span><span class="sb-val">8.70</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.7834)"></span><span class="sb-val">160.60</span></span></div></article>
+<article class="sb" data-nick="Scody"><div class="sb-head"><span class="sb-res l" aria-label="Lost">L</span><span class="sb-name">Scody<span class="sb-team">Lombardeez Nutz</span></span><span class="sb-left">played the best lineup available</span></div><div class="sb-row scored"><span class="sb-lab">Scored</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.5619)"></span><span class="sb-val">115.18</span></span></div><div class="sb-row bench"><span class="sb-lab">Bench</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.0000)"></span><span class="sb-val">0.00</span></span></div><div class="sb-row best"><span class="sb-lab">Best</span><span class="sb-track"><span class="sb-bar" style="width:calc((100% - 56px) * 0.5619)"></span><span class="sb-val">115.18</span></span></div></article>
+<aside class="bc-total"><p class="stat-label">LEFT ON BENCHES, LEAGUE-WIDE</p><p class="bc-total-num">75.96</p><ul class="bc-weeks five" aria-label="Points left on benches by week"><li><span class="bc-wplot"><span class="bc-wv">181.08</span><span class="bc-wbar" style="height:57px"></span></span><span class="bc-wl">WEEK 1</span></li><li><span class="bc-wplot"><span class="bc-wv">127.68</span><span class="bc-wbar" style="height:40px"></span></span><span class="bc-wl">WEEK 2</span></li><li><span class="bc-wplot"><span class="bc-wv">177.28</span><span class="bc-wbar" style="height:56px"></span></span><span class="bc-wl">WEEK 3</span></li><li><span class="bc-wplot"><span class="bc-wv">202.46</span><span class="bc-wbar" style="height:64px"></span></span><span class="bc-wl">WEEK 4</span></li><li class="now"><span class="bc-wplot"><span class="bc-wv">75.96</span><span class="bc-wbar" style="height:24px"></span></span><span class="bc-wl">WEEK 5</span></li></ul><p class="bc-total-txt">The lowest of the season, by 51.72. Dara left a third of it on his own. And 75.96 is, to the hundredth, Dano's score in Week 3, which is still the lowest score of the season.</p></aside>
+</div>
+<p class="yard-desc" style="margin-top:1rem">The best possible lineup only makes legal moves: every player in his own position or the flex, and the flex here takes receivers and running backs only, never a tight end. And it only uses players you could genuinely have started: nobody signed after his own game, or after the slot he would have filled had already locked. That is why it is usually less than scored plus bench.</p>
+</section>
+<section id="injuries" class="wrap" style="scroll-margin-top:72px;">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>THE MEDICAL BAY</h2>
+<p class="yard-desc paragraph">Two starting tight ends, two concussions. Bring grapes.</p>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">T.J. Hockenson</div><div class="inj-meta">TE · MIN · Concussion</div><p class="inj-quip">Two snaps, 1.70 for Dara, with Tyler Warren's 21.40 on the bench.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">Kenyon Sadiq</div><div class="inj-meta">TE · NYJ · Concussion</div><p class="inj-quip">Thirteen snaps, 0.30 for Tom, with Tucker Kraft's 11.60 on the bench. Second week running.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">David Montgomery</div><div class="inj-meta">RB · HOU · Groin</div><p class="inj-quip">Nine snaps, 1.10 for Scody.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">TreVeyon Henderson</div><div class="inj-meta">RB · NE · Ankle</div><p class="inj-quip">Twelve snaps, 4.80 on Ian's bench.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">DJ Moore</div><div class="inj-meta">WR · BUF · Shoulder (AC joint)</div><p class="inj-quip">Did not play, which is how Jake got a receiver decision right. See the Contrary Indicator Club, below.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">Lamar Jackson</div><div class="inj-meta">QB · BAL · Ankle</div><p class="inj-quip">Questionable last week, out this week. Hegs started Dak Prescott: 13.64.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">Kyle Monangai</div><div class="inj-meta">RB · CHI · Toe</div><p class="inj-quip">29.00 on Dano's bench in Week 4. Did not play in Week 5.</p></div>
+<div class="inj-row"><div class="inj-chip serious">OUT</div><div class="inj-player">Marvin Harrison</div><div class="inj-meta">WR · HOU · Coach's decision</div><p class="inj-quip">Signed by Scody on Saturday. Did not play.</p></div>
+<div class="inj-row"><div class="inj-chip quar">Q</div><div class="inj-player">CeeDee Lamb</div><div class="inj-meta">WR · DAL · Quadriceps</div><p class="inj-quip">42.30 last week. 2.90 this week, on 34 snaps.</p></div>
+<div class="inj-row"><div class="inj-chip quar">Q</div><div class="inj-player">Jaxon Smith-Njigba</div><div class="inj-meta">WR · SEA · Ankle</div><p class="inj-quip">23.80 for Hegs anyway.</p></div>
+<div class="inj-row"><div class="inj-chip quar">Q</div><div class="inj-player">Quinshon Judkins</div><div class="inj-meta">RB · CLE · Lower leg</div><p class="inj-quip">8.00 in Ian's flex, with Ollie Gordon's 14.80 on the bench. Gordon is questionable too.</p></div>
+<div class="inj-row"><div class="inj-chip quar">Q</div><div class="inj-player">Aaron Jones</div><div class="inj-meta">RB · MIN · Leg</div><p class="inj-quip">19.70 for Ian.</p></div>
+<div class="inj-row"><div class="inj-chip quar">Q</div><div class="inj-player">Ladd McConkey</div><div class="inj-meta">WR · LAC · Foot</div><p class="inj-quip">Traded to Dara on Wednesday. Did not play.</p></div>
+<p class="yard-desc paragraph" style="margin-top:1rem">Still in the bay: Breece Hall (out), A.J. Brown and Travis Etienne (IR), all Dara's. Jordyn Tyson and Jordan Mason (IR), Jack's. Jalen Coker (out), Hegs'. Stefon Diggs, Saquon Barkley and Rico Dowdle (out) and Josh Jacobs (away), Scody's. Alec Pierce and Jonah Coleman (IR), Conor's. Zach Charbonnet (PUP), Tom's. DeVonta Smith (out) and Rashee Rice (questionable), Dano's.</p>
+</section>
+<section id="extra" class="wrap" style="scroll-margin-top:72px;">
+<h2 class="sec-head"><svg class="ball-marker ball" aria-hidden="true"><use href="#ball"></use></svg>ALSO THIS WEEK</h2>
+<div class="side-note">
+<p class="side-head">THE CONTRARY INDICATOR CLUB, WEEK 5</p>
+<p class="side-txt">Gorvel, quarterback: started Joe Burrow at last, 24.60, and Trevor Lawrence scored 24.74 on the bench. Wrong by 0.14. That is 0 for 5, and 37.54 points. Jake, receiver: started Jaylen Waddle, 4.80, and DJ Moore did not play. The club's first right answer, on a technicality: 1 for 5. Dano, the club's only graduate, started Isaiah Likely over Colston Loveland and was right by 28.50. Fifteen decisions, three right, and one of those was because the other player was injured.</p>
+</div>
+<div class="side-note">
+<p class="side-head">TOM AND THE TIGHT ENDS</p>
+<p class="side-txt">Week 4: Kenyon Sadiq started, 0.00, with Tucker Kraft's 16.50 on the bench. The advice in this page's footer: Tom, start a tight end. Week 5: Sadiq started, played 13 snaps and is now out with a concussion, 0.30. Kraft scored 11.60 on the bench. Over two weeks that is 0.30 started and 28.10 benched. Tom is top of the table. Nobody tell him.</p>
+</div>
+<div class="side-note">
+<p class="side-head">26 SECONDS</p>
+<p class="side-txt">On Thursday Dara released Kyler Murray to sign Malik Washington, then released Washington 26 seconds later to sign Wan'Dale Robinson. Eleven hours later Scody signed Washington and started him: 12.10. Robinson scored 11.30 in Dara's flex. Receiver for receiver, those 26 seconds cost Dara 0.80. Murray scored 18.26 for nobody.</p>
+</div>
+<div class="side-note">
+<p class="side-head">THE KELCE DERBY: FINAL</p>
+<p class="side-txt">Kelce was on a bye. Dalton Schultz was released by Dara on Wednesday, for Hockenson, and scored 6.00 for nobody. So the derby ends where Week 4 left it: Kelce 43.50, Schultz 35.90, over the three weeks both were on rosters. Jack by 7.60. Hockenson scored 1.70.</p>
+</div>
+<div class="side-note">
+<p class="side-head">KAMARA FOUND A HOME</p>
+<p class="side-txt">Last week's footer: "Dara — Kamara is still out there." He is not any more. Jack claimed Alvin Kamara off waivers on Wednesday. Week 5: three carries for 12 yards, two catches for minus six, 2.60 on Jack's bench.</p>
+</div>
+<div class="side-note">
+<p class="side-head">FOUR RAMS ON MONDAY NIGHT</p>
+<p class="side-txt">Conor went into Monday night on 60.20, 108.40 behind Tom, with four Rams still to play: Matthew Stafford, Kyren Williams, Davante Adams and the kicker, Harrison Mevis. Between them they scored 72.02. He lost by 36.38 and drops from fourth to seventh. Carnell Tate, last week's 22.50 on the bench, scored 1.60 on the bench this week. Correctly benched.</p>
+</div>
+<div class="side-note">
+<p class="side-head">BILLS, BENGALS, BILLS, BENGALS</p>
+<p class="side-txt">In Week 4 Jake released the Cincinnati defence to sign Buffalo's. This week he released Buffalo's to sign Cincinnati's. Cincinnati scored 10.00. Buffalo gave up 34 in Los Angeles and scored 1.00. Right, this time.</p>
+</div>
+</section>
+<footer class="foot">
+<p class="foot-intro">Week 6 next. Jack: you won the trade. Jake: you won the game. Gorvel: you started the other quarterback and it was wrong by 0.14; there is no answer. Tom: this page has stopped asking about tight ends. Dara: one tight end at a time. Scody: sign someone who plays. Ian: we are hearing things. Everyone else: don't tell your motha.</p>
+<nav class="foot-nav" aria-label="Review weeks">
+<a class="foot-link" href="../week-4/">← WEEK 4</a>
+<a class="foot-link" href="../">ALL WEEKS</a>
+</nav>
+<p class="foot-meta">Compiled from the Sleeper API · League 1389724530838114304 · Week 5, 2026 season</p>
+<a href="#top" class="top-btn">TOP</a>
+</footer>
+</body>
+</html>
