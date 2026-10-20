@@ -23,6 +23,8 @@ archive index, with the latest week pinned at the top.
                   (open-source Kokoro AI voice, captions in redzone.vtt)
 /week-5/          Week 5, plus redzone.mp4: the whip-around presented by Bot Hanson,
                   an AI anchor (Kokoro voice, captions in redzone.vtt)
+/week-6/          Week 6, plus the trade tracker (Week 5's trade, scored week by week)
+                  and redzone.mp4 with Bot Hanson
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
