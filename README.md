@@ -25,6 +25,8 @@ archive index, with the latest week pinned at the top.
                   an AI anchor (Kokoro voice, captions in redzone.vtt)
 /week-6/          Week 6, plus the trade tracker (Week 5's trade, scored week by week)
                   and redzone.mp4 with Bot Hanson
+/week-8/          Week 8, with Week 7's results inside (no separate Week 7 page), both trade
+                  trackers, Nobody's lineup, and redzone.mp4 with Bot Hanson
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
