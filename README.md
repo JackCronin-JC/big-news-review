@@ -27,6 +27,9 @@ archive index, with the latest week pinned at the top.
                   and redzone.mp4 with Bot Hanson
 /week-8/          Week 8, with Week 7's results inside (no separate Week 7 page), both trade
                   trackers, Nobody's lineup, and redzone.mp4 with Bot Hanson
+/week-9/          Week 9, with both trade trackers, Nobody's lineup, Road to Glory (playoff
+                  odds from 100,000 simulated finishes of the remaining schedule), and
+                  redzone.mp4 with Bot Hanson
 ```
 
 To add a week: copy the most recent `week-N/` to `week-N+1/`, replace the
